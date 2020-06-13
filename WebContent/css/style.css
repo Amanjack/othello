@@ -1,0 +1,75 @@
+@charset "UTF-8";
+body{
+	text-align:center;
+	font-size:7pt;
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+}
+main {
+	flex:1;
+}
+footer{
+	margin-bottom:10px;
+}
+table{
+	border-collapse:collapse;
+	margin-left:auto;
+	margin-right:auto;
+	table-layout:fixed;
+}
+table th, table td{
+	width:25px;
+	height:25px;
+}
+table th{
+	font-size:70%;
+}
+table td{
+	border:solid 1px black;
+}
+.set{
+	width:25px;
+	height:25px;
+	border-style:none;
+	background-color:#ffffff;
+	font-size:12pt;
+}
+.set:hover{
+	background-color:#cccccc;
+}
+button, input[type="submit"]{
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	padding: 0;
+	appearance: none;
+}
+div{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border:solid 1px black;
+	margin:15px;
+}
+.stop, .pass, .reset{
+	font-size:8pt;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	vertical-align:middle;
+	margin:1px;
+	background-color:white;
+}
+.stop{
+	padding:0 0 2px 0;
+}
+.reset{
+	line-height:12px;
+}
+.stop:hover, .pass:hover, .reset:hover{
+	background-color:#cccccc;
+}
